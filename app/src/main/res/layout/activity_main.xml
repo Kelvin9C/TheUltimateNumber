@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.edk.theultimatenumber.MainActivity">
+
+    <TextView
+        android:id="@+id/singlePlayerView"
+        style="@style/MainPageViews"
+        android:text="Single Player" />
+
+    <TextView
+        android:id="@+id/multiplayerView"
+        style="@style/MainPageViews"
+        android:text="Multiplayer" />
+
+    <TextView
+        android:id="@+id/howView"
+        style="@style/MainPageViews"
+        android:text="How To Play" />
+
+    <TextView
+        android:id="@+id/settingView"
+        style="@style/MainPageViews"
+        android:text="Setting" />
+
+</LinearLayout>

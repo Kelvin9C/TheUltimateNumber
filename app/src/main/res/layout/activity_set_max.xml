@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.edk.theultimatenumber.SetMaxActivity">
+
+    <TextView
+        android:id="@+id/setMaxNumberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="max number"
+        android:textAllCaps="true"
+        android:textSize="18pt"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/maxNumber_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="24pt" />
+
+    <TextView
+        android:id="@+id/goTextView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:text="GO"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+</LinearLayout>
