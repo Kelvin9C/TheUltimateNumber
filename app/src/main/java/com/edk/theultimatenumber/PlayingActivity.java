@@ -78,7 +78,7 @@ public class PlayingActivity extends AppCompatActivity {
                 //check if the selected number is the ultimate number.
                 if (mSelectedNumber == ultimateNumber) {
                     //GAME OVER.
-                    gameTextView.setText("GAME OVER!!");
+                    gameTextView.setText(R.string.game_over);
                     seekBar.setVisibility(View.GONE);
                     minTextView.setVisibility(View.GONE);
                     maxTextView.setVisibility(View.GONE);
@@ -89,18 +89,18 @@ public class PlayingActivity extends AppCompatActivity {
                     minTextView.setText(String.valueOf(mMin));
                     seekBar.setMax(mMax - mMin);
                     seekBar.setProgress(0);
-                    gameTextView.setText("SAFE!!");
+                    gameTextView.setText(R.string.safe);
                 } else if (mSelectedNumber > ultimateNumber) {
                     //SAFE, reset seek bar
                     mMax = mSelectedNumber - 1;
                     maxTextView.setText(String.valueOf(mMax));
                     seekBar.setMax(mMax - mMin);
                     seekBar.setProgress(mMax - mMin);
-                    gameTextView.setText("SAFE!!");
+                    gameTextView.setText(R.string.safe);
                 }
 
                 if (mMax == mMin) {
-                    gameTextView.setText("YOU WIN!!");
+                    gameTextView.setText(R.string.you_win);
                     seekBar.setVisibility(View.GONE);
                     minTextView.setVisibility(View.GONE);
                     maxTextView.setVisibility(View.GONE);

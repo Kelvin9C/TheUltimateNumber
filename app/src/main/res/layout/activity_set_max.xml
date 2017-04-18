@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="max number"
+        android:text="@string/max_number"
         android:textAllCaps="true"
         android:textSize="18pt"
         android:textStyle="bold" />
@@ -30,7 +30,7 @@
         android:layout_marginTop="32dp"
         android:background="@drawable/circle"
         android:gravity="center"
-        android:text="GO"
+        android:text="@string/go1"
         android:textColor="@android:color/holo_blue_light"
         android:textSize="20pt"
         android:textStyle="bold" />

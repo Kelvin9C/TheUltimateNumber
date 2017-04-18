@@ -21,6 +21,14 @@
         <item>9000</item>
         <item>10000</item>
     </string-array>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="single_player">Single Player</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="how_to_play">How To Play</string>
+    <string name="setting">Setting</string>
+    <string name="max_number">Max Number</string>
+    <string name="go1">GO</string>
+    <string name="game_over">GAME OVER!!</string>
+    <string name="safe">SAFE!!</string>
+    <string name="you_win">YOU WIN!!</string>
 
 </resources>

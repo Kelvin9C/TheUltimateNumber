@@ -10,21 +10,21 @@
     <TextView
         android:id="@+id/singlePlayerView"
         style="@style/MainPageViews"
-        android:text="Single Player" />
+        android:text="@string/single_player" />
 
     <TextView
         android:id="@+id/multiplayerView"
         style="@style/MainPageViews"
-        android:text="Multiplayer" />
+        android:text="@string/multiplayer" />
 
     <TextView
         android:id="@+id/howView"
         style="@style/MainPageViews"
-        android:text="How To Play" />
+        android:text="@string/how_to_play" />
 
     <TextView
         android:id="@+id/settingView"
         style="@style/MainPageViews"
-        android:text="Setting" />
+        android:text="@string/setting" />
 
 </LinearLayout>
