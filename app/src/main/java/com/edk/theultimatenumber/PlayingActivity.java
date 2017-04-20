@@ -28,7 +28,7 @@ public class PlayingActivity extends AppCompatActivity {
         final TextView selectedNumberTextView = (TextView) findViewById(R.id.selectedNumberTextView);
 
 
-        //TODO : set a view to cover (disable) whole page.
+        //TODO : set a countdown view to cover (disable) whole page.
 
         Intent mIntent = getIntent();
         mMax = mIntent.getIntExtra("maxNumber", 0);
@@ -99,6 +99,10 @@ public class PlayingActivity extends AppCompatActivity {
                     gameTextView.setText(R.string.safe);
                 }
 
+                //TODO : what to do when 3 numbers left?
+
+                //TODO : what to do when 2 numbers left?
+
                 if (mMax == mMin) {
                     gameTextView.setText(R.string.you_win);
                     seekBar.setVisibility(View.GONE);
@@ -108,8 +112,6 @@ public class PlayingActivity extends AppCompatActivity {
                 }
             }
         });
-
-        //TODO : countdown 5 sec. then set the cover view gone. Game on!
 
     }
 

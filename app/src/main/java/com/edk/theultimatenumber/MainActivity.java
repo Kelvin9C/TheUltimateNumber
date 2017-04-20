@@ -34,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //TODO : add multiplayer click listener
+
+        //TODO : add How to play click listener
+
+        //TODO : add setting click listener
+
+
+
 
     }
 

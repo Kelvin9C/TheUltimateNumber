@@ -30,5 +30,7 @@
     <string name="game_over">GAME OVER!!</string>
     <string name="safe">SAFE!!</string>
     <string name="you_win">YOU WIN!!</string>
+    <string name="game_setting">Game Setting</string>
+    <string name="game_on">Game On</string>
 
 </resources>
