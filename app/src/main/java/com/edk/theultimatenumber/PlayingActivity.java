@@ -24,7 +24,10 @@ public class PlayingActivity extends AppCompatActivity {
         final TextView maxTextView = (TextView) findViewById(R.id.maxNumberView);
         final SeekBar seekBar = (SeekBar) findViewById(R.id.seekBar);
         final TextView gameTextView = (TextView) findViewById(R.id.timerView);
-        TextView ultimateView = (TextView) findViewById(R.id.nameTextView);
+        TextView nameTextView = (TextView) findViewById(R.id.nameTextView);
+        //TEST : delete after finished
+        TextView ultimateView = (TextView) findViewById(R.id.showUNumberView);
+        ///////////////////////
         final TextView selectedNumberTextView = (TextView) findViewById(R.id.selectedNumberTextView);
 
 
@@ -42,9 +45,9 @@ public class PlayingActivity extends AppCompatActivity {
         Random random = new Random();
         final int ultimateNumber = random.nextInt(mMax + 1);
 
-        // TEST : show ultimate number.
-
+        // TEST : show ultimate number. delete after finished
         ultimateView.setText(String.valueOf(ultimateNumber));
+        //////////////////////////////////
 
         //set initial min & max to seek bar
         seekBar.setMax(mMax - mMin);

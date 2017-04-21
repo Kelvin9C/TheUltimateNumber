@@ -35,6 +35,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //TODO : add multiplayer click listener
+        multiplayView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Create a new intent to open the {@link FamilyActivity}
+                Intent multiplayerIntent = new Intent(MainActivity.this, AddPlayerActivity.class);
+
+                // to send value to another activity.
+                // singlePlayerIntent.putExtra("intVariableName", intValue);
+
+                // Start the new activity
+                startActivity(multiplayerIntent);
+
+            }
+        });
+
 
         //TODO : add How to play click listener
 
